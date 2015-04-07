@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mark2</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	
+<%= link_to "Bookshop", root_path %>
+<%= link_to "Publishing", root_path %>
+<%= link_to "Services", root_path %>
+
+<%= yield %>
+
+</body>
+</html>
